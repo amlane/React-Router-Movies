@@ -48,7 +48,7 @@ function MovieDetails({ movie }) {
 
       {stars.map(star => (
         <div key={star} className="movie-star">
-          {star}
+         <li>{star}</li> 
         </div>
       ))}
     </div>
