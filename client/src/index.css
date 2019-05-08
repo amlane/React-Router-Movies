@@ -1,3 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -14,6 +25,15 @@ body {
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
+}
+
+.movie-card h2 {
+  font-family: 'Rammetto One', cursive;
+  color: rgb(61, 58, 58);
+}
+
+.movie-card h3 {
+  margin: 10px 0;
 }
 
 .movie-director {
@@ -69,4 +89,18 @@ body {
 .home-button {
   padding: 5px 10px;
   background-color: lightskyblue;
+}
+
+.remove-button {
+  position: absolute;
+  top: 65px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+
+.remove-button:hover {
+  background-color: green;
+  color: white;
 }
